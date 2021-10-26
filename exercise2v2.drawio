@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T14:50:41.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Tercauf3vbXbXNJ4Y3HI" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T14:52:40.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="59SQLQW9S5vmqTZHxlm7" version="15.5.9" type="github">
   <diagram id="hdg2vdtkORWnQn_9mXNy" name="Page-1">
     <mxGraphModel dx="4024" dy="2439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
         <mxCell id="J_9MN064SPP7KZqGjW3G-4" value="TRAINER" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;direction=south;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-190" y="322.5" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="J_9MN064SPP7KZqGjW3G-5" value="ISA" style="triangle;whiteSpace=wrap;rotation=-180;horizontal=0;verticalAlign=middle;html=1;" parent="1" vertex="1">
+        <mxCell id="J_9MN064SPP7KZqGjW3G-5" value="&lt;font style=&quot;font-size: 17px&quot;&gt;ISA&lt;/font&gt;" style="triangle;whiteSpace=wrap;rotation=-180;horizontal=0;verticalAlign=middle;html=1;" parent="1" vertex="1">
           <mxGeometry x="-640" y="210" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J_9MN064SPP7KZqGjW3G-6" value="" style="endArrow=none;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="J_9MN064SPP7KZqGjW3G-5" target="J_9MN064SPP7KZqGjW3G-2" edge="1">
