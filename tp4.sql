@@ -1,4 +1,3 @@
-
 CREATE TABLE Saluno (
 
   nic    NUMERIC(8),   -- número de identificação civil
@@ -25,6 +24,7 @@ CREATE TABLE Sdisciplina (
 --
 
 CONSTRAINT pk_Sdisciplina PRIMARY KEY (codigo),
+CONSTRAINT ck_Sdisciplina_ECTS CHECK (codigo>0),
 CONSTRAINT ck_Sdisciplina_ECTS CHECK (ECTS>0)
 );
 
@@ -40,7 +40,13 @@ CREATE TABLE Saprovado (
    classificacao NUMERIC(2) NOT NULL,
 
 --
+CONSTRAINT pk_Saprovado PRIMARY KEY (nic,codigo),
 CONSTRAINT fk_Saprovado FOREIGN KEY (nic) REFERENCES Saluno(nic),
 CONSTRAINT fk_Saprovado1 FOREIGN KEY (codigo) REFERENCES Sdisciplina(codigo),
-CONSTRAINT ck_Saprovado_classificacao CHECK (classificacao >0)
+CONSTRAINT ck_Saprovado_classificacao CHECK (classificacao >9)
 );
+
+INSERT INTO Saprovado (nic,codigo,classificacao) VALUES
+(111, 1001, 14),
+(222, 1001, 16),
+(111, 1002, 17);

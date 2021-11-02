@@ -1,0 +1,108 @@
+GYM
+
+
+CREATE TABLE gym
+
+var_nr INT(11), 
+
+unique_name CHAR(60), 
+
+city CHAR(60), 
+
+address CHAR(60), 
+
+phone INT(9), 
+
+email CHAR(60), 
+
+opening_date DATE,
+
+opening_time TIME,  
+
+closing_time TIME, 
+
+CONSTRAINT pk_gym PRIMARY KEY (var_nr)
+
+
+CLASS_OFFERS
+
+
+CREATE TABLE class_offers
+
+	id_class INT (8), 
+
+	c_weekday CHAR (60), 
+
+	c_end_time TIME,
+
+	c_start_time TIME, 
+	vat_nr int(11) NOT NULL, 
+
+	CONSTRAINT pk_offers PRIMARY KEY (id_class),
+	CONSTRAINT fk_vat FOREIGN KEY (vat_nr),
+
+	REFERENCES gym ON DELETE NO ACTION. 
+
+
+CLASS
+
+
+CREATE TABLE class
+
+id_class INT (8), 
+
+	c_weekday CHAR (60), 
+
+	c_end_time TIME,
+
+	c_start_time TIME,
+
+CONSTRAINT pk_class PRIMARY KEY (id_class)
+
+
+CLASS_TYPE_SPORT
+
+
+CREATE TABLE class_type_sport
+
+sport_id INT (8), 
+
+	s_exercise_duration TIME, 
+
+	s_description CHAR(200),
+
+	s_price_class INT (8),
+
+	s_rec_age_group INT(8),
+
+	s_health_benefits CHAR(60),
+
+	s_name CHAR(60), 
+
+	s_lvl_phy_demand CHAR(60), 
+
+	id_class INT(8) NOT NULL,
+
+CONSTRAINT pk_sport_class PRIMARY KEY (sport_id),
+
+CONSTRAINT FK_class FOREIGN KEY (class_id),
+
+REFERENCES type_off_sport ON DELETE NO ACTION
+
+
+SPACE
+
+
+CREATE TABLE class_space
+
+	sp_name CHAR(60),
+
+	sp_area_m2 INT(8),
+
+id_class INT(8) NOT NULL,
+
+CONSTRAINT pk_space_class PRIMARY KEY (sp_name),
+
+CONSTRAINT FK_class FOREIGN KEY (class_id),
+
+REFERENCES space ON DELETE NO ACTION
