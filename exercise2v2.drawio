@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T22:08:19.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="n8sG8IJ9A6A4xOttvshC" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-06T22:08:47.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="tf2Yr3MqOslPzj4_u84r" version="15.5.4" type="github">
   <diagram id="hdg2vdtkORWnQn_9mXNy" name="Page-1">
-    <mxGraphModel dx="7221" dy="3709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6036" dy="3074" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZJh7k_RnWvVlNWQJP8Ni-1" value="OFFERS" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="442.5" y="422.5" width="150" height="125" as="geometry" />
+          <mxGeometry x="460" y="422.5" width="150" height="125" as="geometry" />
         </mxCell>
         <mxCell id="TNOlmFblQoI8VBXt5ZoZ-30" value="IS_SUITABLE" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="587.5" width="150" height="125" as="geometry" />
@@ -484,7 +484,7 @@
             <mxPoint x="690" y="510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="445" y="620" />
-              <mxPoint x="518" y="620" />
+              <mxPoint x="535" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
