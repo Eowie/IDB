@@ -1,5 +1,0 @@
-Gym(vat_nr:integer, address: string, unique_name:string, phone:integer, closing_time:time , opening_time:time , opening_date:date , city:varchar(100), email:string)
-Space(nome:string, area_m2:integer)
-Type_of_Equipment(ID:integer, name:string)
-Type_of_Sport(Sport_ID:integer, Exercise_duration:time, description: string, price_class: float, rec_age_group: LOOKINTO! :D, health_benefits: string, name:string, lvl_phy_demand: string)
-Class(Weekday:string, start_time:time, end_time: time)
