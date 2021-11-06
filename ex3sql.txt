@@ -1,0 +1,32 @@
+CREATE TABLE STour_Type(
+	code INTEGER(6),
+	n_tour INTEGER(4),
+	t_name VARCHAR(20),
+	base_price NUMERIC(6,2),
+	max_pass INTEGER(3),
+CONSTRAINT pk_STour_Type PRIMARY KEY (code)
+);
+
+
+CREATE TABLE STour(
+	code   INTEGER(6),
+	date_i DATE,
+	guidename VARCHAR(60),
+CONSTRAINT pk_STour PRIMARY KEY (code,date_i),
+CONSTRAINT fk_STour FOREIGN KEY (code) REFERENCES STour_Type (code) ON DELETE CASCADE
+);
+
+CREATE TABLE SCity(
+	id INTEGER(6),
+	name VARCHAR(60),
+CONSTRAINT pk_SCity PRIMARY KEY (id)
+);
+
+CREATE TABLE SDistance(
+	id_city_o INTEGER(6),
+	id_city_d INTEGER(6),
+	km INTEGER(6),
+CONSTRAINT pk_SDistance PRIMARY KEY (id_city_o,id_city_d),
+CONSTRAINT fk_SDistance_o FOREIGN KEY (id_city_o) REFERENCES SCity(id),
+CONSTRAINT fk_SDistance_d FOREIGN KEY (id_city_d) REFERENCES SCity(id)
+);
