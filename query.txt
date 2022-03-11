@@ -1,0 +1,34 @@
+SELECT a.idalbum, a.titulo, SUM(f.duracao) as Len
+FROM Album a, Faixa f
+WHERE a.idalbum = f.album 
+	AND (SELECT SUM(f1.duracao)
+		FROM Album a1, Faixa f1
+		WHERE a1.idalbum = f1.album)  > (SELECT SUM(f2.duracao)/COUNT(DISTINCT f2.album)
+				   FROM Faixa f2)
+GROUP BY f.album
+
+
+
+
+
+
+
+SELECT SUM(f1.duracao)
+FROM Faixa f1
+
+
+SELECT COUNT(DISTINCT f1.album)
+FROM Faixa f1
+
+
+SELECT SUM(f2.duracao) AS leng
+FROM Faixa f2
+WHERE leng > SELECT SUM(f1.duracao)/COUNT(DISTINCT f1.album)
+		FROM Faixa f1
+GROUP BY f2.album
+
+
+SELECT a.idalbum, a.titulo, SUM(f.duracao) as Len
+FROM Album a, Faixa f
+WHERE a.idalbum = f.album 
+GROUP BY f.album
