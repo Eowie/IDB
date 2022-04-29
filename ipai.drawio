@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T15:05:17.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="BLDk31xxaSHczFmX9hU2" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T15:08:20.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NyjoSCvj_PynS6ra4Pdn" version="17.4.6" type="github">
   <diagram id="cGSlnTRN2jhaXhL6KTZM" name="Page-1">
     <mxGraphModel dx="3842" dy="3510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -751,7 +751,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-374" value="Dimensão Localização" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-530" y="-2040" width="209" height="240" as="geometry" />
+          <mxGeometry x="-1150" y="-2053" width="209" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-375" value="IDLocalizacao (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-374">
           <mxGeometry y="30" width="209" height="30" as="geometry" />
@@ -775,7 +775,7 @@
           <mxGeometry y="210" width="209" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-382" value="Dimensão LocalizaçãoDa" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-2180" width="230" height="210" as="geometry" />
+          <mxGeometry x="-1560" y="-2193" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-383" value="IDLocalizacaoDa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-382">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -796,7 +796,7 @@
           <mxGeometry y="180" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-389" value="Dimensão LocalizaçãoRecebe" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-1870" width="230" height="210" as="geometry" />
+          <mxGeometry x="-1560" y="-1883" width="230" height="210" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-390" value="IDLocalizacaoRecebe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-389">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -823,7 +823,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-398" value="Dimensão Conflito" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-940" y="-1570" width="230" height="270" as="geometry" />
+          <mxGeometry x="-1560" y="-1583" width="230" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-399" value="IDConflito (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-398">
           <mxGeometry y="30" width="230" height="30" as="geometry" />
@@ -850,7 +850,7 @@
           <mxGeometry y="240" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-407" value="Tabela Ponte" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-1570" width="140" height="120" as="geometry" />
+          <mxGeometry x="-1280" y="-1583" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-408" value="IDConflito (FK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-407">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -862,7 +862,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-411" value="Dimensão Grupo Conflito" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-470" y="-1610" width="190" height="90" as="geometry" />
+          <mxGeometry x="-1090" y="-1623" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-412" value="IDGrupoConflito (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=14;" vertex="1" parent="Q2evhzxqctGgtVobk6WL-411">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
@@ -875,7 +875,7 @@
         </mxCell>
         <mxCell id="Q2evhzxqctGgtVobk6WL-415" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#66CC00;strokeWidth=3;fontFamily=Helvetica;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q2evhzxqctGgtVobk6WL-409" target="Q2evhzxqctGgtVobk6WL-412">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-590" y="-1390" as="targetPoint" />
+            <mxPoint x="-1210" y="-1403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
